@@ -1,0 +1,16 @@
+
+<main>
+    <form onclick="cap()" (ngSubmit)="receberDados()">
+        <div class="campo-label">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Ex.:email@email.com.br" required [(ngModel)]="userModel.email">
+        </div>
+
+        <div class="campo-label">
+            <label for="senha">Senha</label>
+            <input type="password" name="password" id="senha" placeholder="Digite sua senha" required [(ngModel)]="userModel.password">
+        </div>
+        <input type="submit" value="Login / Cadastrar">
+
+    </form>
+</main>

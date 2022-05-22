@@ -1,0 +1,53 @@
+/*corpo cabeçalho*/
+header{
+    background-color: black;
+    margin: auto;
+}
+img{
+    width: 110px;
+    height: 100px;
+}
+.corpoCabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cabecalhoMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 750px;
+}
+.cabecalhoMenu a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.menu-bars{
+    font-size: 40px;
+    display: none;
+}
+.fa-solid.fa-bars{
+    color: #0FA958;
+}
+
+@media  screen and (max-width: 800px) {
+    .corpoCabecalho{
+        position: relative;
+    }
+    .cabecalhoMenu{
+        height: 300px;
+        position: absolute;
+        top: 100px;
+        display: none;
+        background-color: #000;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-bars{
+        display: inline-block;
+    }
+}

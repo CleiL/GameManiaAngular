@@ -1,0 +1,63 @@
+/*corpo footer*/
+footer {
+    background-color: black;
+}
+
+.rodape {
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.rodape h2{
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+.rodape a{
+    color: white;
+    padding-left: 30px;
+}
+
+img{
+    height: 150px;
+}
+.sociais p{
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.sociais form {
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 10px;;
+}
+.sociais input[type="email"]{
+    height: 33px;
+    width: 65%;  
+    border-radius: 0px; 
+    border-style: none; 
+    text-indent: 5px;
+}
+.sociais input[type="email"]::placeholder {
+    color: #B8B3B3;
+    font-weight: bold;
+}
+.sociais button{
+    width: 30%;
+    color: white;
+    background-color: #001F70;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+@media  screen and (max-width: 1700px) {
+    .rodape{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }    
+}
