@@ -11,6 +11,18 @@
       "password": "$2a$10$V5CTh0JmOmWjxVdVE.1R/evlgLZvKTSYiUlLnKEeIN/giLiZkv09C",
       "nome": "pam",
       "id": 2
+    },
+    {
+      "nome": "sophia",
+      "email": "sophia@email.com",
+      "password": "sophia",
+      "id": 3
+    },
+    {
+      "email": "manu@email.com",
+      "password": "$2a$10$8G5oMy3Qg8hNsEs8bfnbJ.PBWe47kMyDjkpLoI.k8cIQK4ifNG3YS",
+      "nome": "manu",
+      "id": 4
     }
   ]
 }
