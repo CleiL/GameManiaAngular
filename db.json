@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "nome": "clei",
+      "email": "clei@email.com",
+      "password": "clei123",
+      "id": 1
+    },
+    {
+      "email": "pam@email.com",
+      "password": "$2a$10$V5CTh0JmOmWjxVdVE.1R/evlgLZvKTSYiUlLnKEeIN/giLiZkv09C",
+      "nome": "pam",
+      "id": 2
+    }
+  ]
+}
